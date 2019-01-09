@@ -1,0 +1,171 @@
+body,html{
+	width:100%;
+	margin:auto;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.img-responsive{
+
+	width:100%;
+
+	height:auto;
+	border-radius: 50px;
+}
+#bodybg{
+	background-color:black;
+}
+#header{
+
+background: url(backpack.jpg) no-repeat 50% 50%;
+
+background-size: cover;
+z-index:99;
+width:100%;
+height:100vh;
+
+}
+
+.yellowbg{
+
+
+	background: #fd7e14;
+}
+.blackbg{
+
+	background: black;
+}
+
+.headingpadding{
+
+	margin:20px 20px 20px 70px;
+
+}
+.content {
+  margin: 40px auto;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: justify; }
+
+.logo {
+  position: fixed;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 36px;
+  color: #fff; }
+
+nav {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 99; }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s; }
+
+nav.black ul {
+  background: #000; }
+
+nav ul li {
+  display: inline-block;
+  padding: 20px; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px; }
+
+.menu-icon {
+  display: none;
+  width: 100%;
+  padding: 16px 24px;
+  color: #fff;
+  background: #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: right;
+  cursor: pointer; }
+
+
+ .about{
+
+ 	text-align: center;
+ }
+
+ #contactlist li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  
+  font-size: 15px;
+  color: #fff;
+  position: relative;
+  
+  left: 45%; }
+
+#contacts {
+  padding: 10px;
+  margin: 10px; }
+
+.bg-black {
+  background: #000; }
+
+.projectimages {
+  width: 300px;
+  height: 300px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 50px;
+  z-index: 1; }
+
+@media (max-width: 750px) {
+  
+  
+  #contactlist li {
+    
+    left: 40%; } }
+
+@media (max-width: 450px) {
+.content {
+  margin: 40px auto;
+  line-height: 30px;
+  font-size: 12px;
+  text-align: justify; }
+
+
+}
